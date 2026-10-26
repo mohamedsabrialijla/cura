@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 48" role="img" aria-label="Tamara">
+  <rect width="88" height="48" rx="6" fill="#fff"/>
+  <rect x="1" y="1" width="86" height="46" rx="5" fill="none" stroke="#e5e5e5"/>
+  <text x="44" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1A1A1A">tamara</text>
+</svg>

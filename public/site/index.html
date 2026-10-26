@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>كيورا الطبي | CURA Medical Team</title>
+  <meta name="description" content="كيورا الطبي — فريق طلابي تطوعي يخدم طلبة الكليات الطبية في غزة عبر التدريب العملي والمعرفة. LEARN • RESEARCH • GROW">
+  <meta name="keywords" content="كيورا الطبي, CURA Medical Team, غزة, فلسطين, قطاع غزة, تدريب طبي, تمريض, طلبة الطب">
+
+  <link href="/site/assets/img/misbar/logo-transparent.png" rel="icon">
+  <link href="/site/assets/img/misbar/logo-transparent.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link id="bootstrap-css" href="/site/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script>
+    (function () {
+      var lang = localStorage.getItem('site_lang') || 'en';
+      var isAr = lang === 'ar';
+      document.documentElement.lang = lang;
+      document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+      document.getElementById('bootstrap-css').href = isAr
+        ? '/site/assets/vendor/bootstrap/css/bootstrap.rtl.min.css'
+        : '/site/assets/vendor/bootstrap/css/bootstrap.min.css';
+    })();
+  </script>
+  <link href="/site/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/site/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/site/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/site/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/site/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/site/assets/css/main.css" rel="stylesheet">
+  <link href="/site/assets/css/lang.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-flex align-items-center palestine-top">
+          <span class="palestine-flag" aria-hidden="true" title="فلسطين">
+            <svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
+              <rect width="24" height="5.333" y="0" fill="#000"/>
+              <rect width="24" height="5.333" y="5.333" fill="#fff"/>
+              <rect width="24" height="5.334" y="10.666" fill="#007A3D"/>
+              <polygon points="0,0 12,8 0,16" fill="#CE1126"/>
+            </svg>
+          </span>
+          <span class="palestine-loc" data-i18n="top.palestine">غزة · فلسطين</span>
+          <span class="d-none d-md-inline top-sep" aria-hidden="true">—</span>
+          <i class="bi bi-heart-pulse me-1 d-none d-md-inline"></i>
+          <span class="d-none d-md-inline" data-i18n="top.hours">فريق طلابي تطوعي — تعلّم • بحث • نمو</span>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> <span data-i18n="top.phone">اتصل بنا: +970 567 744 746</span>
+          <div class="lang-switcher" role="group" aria-label="Language">
+            <button type="button" class="lang-btn" data-set-lang="ar">AR</button>
+            <span class="lang-sep">|</span>
+            <button type="button" class="lang-btn" data-set-lang="en">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="/" class="logo d-flex align-items-center me-auto">
+          <span class="palestine-flag d-md-none" aria-hidden="true" title="فلسطين">
+            <svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
+              <rect width="24" height="5.333" y="0" fill="#000"/>
+              <rect width="24" height="5.333" y="5.333" fill="#fff"/>
+              <rect width="24" height="5.334" y="10.666" fill="#007A3D"/>
+              <polygon points="0,0 12,8 0,16" fill="#CE1126"/>
+            </svg>
+          </span>
+          <img src="/site/assets/img/misbar/logo-transparent.png" alt="CURA Medical Team" class="site-logo">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active" data-i18n="nav.home">الرئيسية</a></li>
+            <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+            <li><a href="#services" data-i18n="nav.offer">ماذا نقدم</a></li>
+            <li><a href="#story" data-i18n="nav.story">قصتنا</a></li>
+            <li><a href="#vision" data-i18n="nav.vision">الرؤية</a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery">الألبومات</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn" href="#partners" data-i18n="nav.cta">تعاون معنا</a>
+      </div>
+    </div>
+    <div class="palestine-stripe" aria-hidden="true"></div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section">
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+
+        <div class="carousel-item active">
+          <img src="/site/assets/img/misbar/photo-bp.jpeg" alt="">
+          <div class="container">
+            <div class="hero-palestine-chip" data-aos="fade-up">
+              <span class="palestine-flag" aria-hidden="true">
+                <svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                  <rect width="24" height="5.333" y="0" fill="#000"/>
+                  <rect width="24" height="5.333" y="5.333" fill="#fff"/>
+                  <rect width="24" height="5.334" y="10.666" fill="#007A3D"/>
+                  <polygon points="0,0 12,8 0,16" fill="#CE1126"/>
+                </svg>
+              </span>
+              <span data-i18n="hero.palestine">من قطاع غزة — فلسطين</span>
+            </div>
+            <h2 data-i18n="hero1.title">كيورا الطبي</h2>
+            <p data-i18n="hero1.text">نتعلّم اليوم لِنُبدع غدًا. فريق طلابي تطوعي يخدم طلبة الكليات الطبية في غزة عبر التدريب العملي والمعرفة.</p>
+            <a href="#about" class="btn-get-started" data-i18n="hero1.btn">تعرّف علينا</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="/site/assets/img/misbar/photo-supplies.jpeg" alt="">
+          <div class="container">
+            <h2 data-i18n="hero2.title">التعلّم يبدأ بالممارسة</h2>
+            <p data-i18n="hero2.text">دورات تدريبية تجمع الجانب النظري بالتطبيق المباشر: مهارات التمريض الأساسية، الخياطة الجراحية، والوريد.</p>
+            <a href="#services" class="btn-get-started" data-i18n="hero2.btn">ماذا نقدم</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="/site/assets/img/misbar/photo-28.jpeg" alt="">
+          <div class="container">
+            <h2 data-i18n="hero3.title">LEARN • RESEARCH • GROW</h2>
+            <p data-i18n="hero3.text">نطمح أن نرافق الطالب الطبي في مسيرته: مهارة عملية، محتوى معرفي، وفرص للنمو الأكاديمي والمهني.</p>
+            <a href="#contact" class="btn-get-started" data-i18n="hero3.btn">تواصل معنا</a>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+        <ol class="carousel-indicators"></ol>
+      </div>
+    </section>
+
+    <section id="featured-services" class="featured-services section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-book-medical icon"></i></div>
+              <h4><span data-i18n="pillars.learn.title">نتعلّم</span></h4>
+              <p data-i18n="pillars.learn.text">تعليم طبي جيد لا يبقى حكرًا على من يملك الإمكانيات أو فرصة الوصول.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-hand-holding-medical icon"></i></div>
+              <h4><span data-i18n="pillars.practice.title">نمارس</span></h4>
+              <p data-i18n="pillars.practice.text">تدريب عملي مباشر يسد الفجوة بين ما يُدرَّس نظريًا وما يحتاجه الطالب فعليًا.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-flask icon"></i></div>
+              <h4><span data-i18n="pillars.research.title">نبحث</span></h4>
+              <p data-i18n="pillars.research.text">منصة معرفية تجمع محتوى تعليميًا وبحثيًا ومعلومات عن الفرص الدولية.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-seedling icon"></i></div>
+              <h4><span data-i18n="pillars.grow.title">نموّ</span></h4>
+              <p data-i18n="pillars.grow.text">منظومة تدريب وتعلّم مستمرة لطلبة الطب والتمريض والتخصصات الصحية.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="call-to-action" class="call-to-action section accent-background">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3 data-i18n="cta.title">شراكة من أجل التعليم الطبي</h3>
+              <p data-i18n="cta.text">نرى أرضية مشتركة حقيقية مع الجهات التي تدعم الكوادر الطبية وتدريبها. يسعدنا بحث صيغة تعاون تناسب عملكم: دعم مالي، دعم عيني، أو احتضان مؤسسي.</p>
+              <a class="cta-btn" href="#partners" data-i18n="cta.btn">لنبدأ الحديث</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="about.title">من نحن</h2>
+        <p data-i18n="about.lead">فريق طلابي تطوعي يضم طلبة الكليات الطبية والصحية</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="/site/assets/video/misbar-training-poster.jpg" class="img-fluid rounded about-video-poster" alt="CURA Medical Team">
+            <a href="/site/assets/video/misbar-training.mp4" class="glightbox pulsating-play-btn" data-gallery="about-video" data-type="video" aria-label="Play video"></a>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3 data-i18n="about.heading">كيورا الطبي | CURA Medical Team</h3>
+            <p data-i18n="about.p1">انطلقنا من إيمان أعضائنا بأن التعليم الطبي الجيد لا يجب أن يبقى حكرًا على من يملك الإمكانيات أو الفرصة للوصول إليه. نعمل بشكل رئيسي على خدمة طلبة الكليات الطبية في غزة، في ظل الظروف الاستثنائية التي يمر بها القطاع التعليمي هناك.</p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span data-i18n="about.li1">فريق طلابي تطوعي من طلبة الطب والعلوم الصحية</span></li>
+              <li><i class="bi bi-check2-all"></i> <span data-i18n="about.li2">خدمة أساسية لطلبة غزة في ظروف استثنائية</span></li>
+              <li><i class="bi bi-check2-all"></i> <span data-i18n="about.li3">هوية بصرية وخطة عمل واضحة، ودورات فعلية على الأرض</span></li>
+            </ul>
+            <p data-i18n="about.p2">شعارنا: تعلّم • بحث • نمو. نتعلّم اليوم لِنُبدع غدًا.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="offer.title">ماذا نقدم</h2>
+        <p data-i18n="offer.lead">تدريب عملي، ومنصة معرفية مستمرة وليست نشاطًا موسميًا</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-user-nurse"></i></div>
+              <h3 data-i18n="offer.s1.title">دورات تدريبية عملية</h3>
+              <p data-i18n="offer.s1.text">نجمع الجانب النظري بالتطبيق المباشر في تخصصات طبية وصحية متعددة، ونتوسع بحسب احتياجات الطلبة والموارد المتاحة.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-syringe"></i></div>
+              <h3 data-i18n="offer.s2.title">مهارات التمريض والخياطة</h3>
+              <p data-i18n="offer.s2.text">دورات شملت الوريد والقسطرة الوريدية وسحب الدم، إضافة إلى تدريب عملي على الخياطة الجراحية بخطوات آمنة.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-laptop-medical"></i></div>
+              <h3 data-i18n="offer.s3.title">منصة معرفية</h3>
+              <p data-i18n="offer.s3.text">نعمل على بناء مرجع يجمع محتوى تعليميًا وبحثيًا ومعلومات عن الفرص الدولية للطلبة.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-heart"></i></div>
+              <h3 data-i18n="offer.s4.title">أثر ملموس على المشاركين</h3>
+              <p data-i18n="offer.s4.text">الدورات على الأرض أثبتت أن الفكرة قابلة للتطبيق وأن لها أثرًا حقيقيًا على الطلبة المشاركين.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="features section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="story.title">كيف بدأت الفكرة</h2>
+        <p data-i18n="story.lead">من نقاشات فردية إلى فريق منظم له أثر على الأرض</p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-around gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="/site/assets/img/misbar/photo-bp.jpeg" alt="">
+          </div>
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3 data-i18n="story.h">فجوة حقيقية بين النظرية وما يحتاجه الطالب</h3>
+            <p data-i18n="story.p">بدأت كيورا كمبادرة صغيرة بين طلبة لاحظوا فجوة بين ما يُدرَّس نظريًا وما يحتاجه الطالب من مهارات عملية وموارد معرفية موثوقة. تحوّلت الفكرة إلى فريق منظم له هوية بصرية وخطة عمل، ثم إلى دورات تدريبية فعلية — نقطة تحول أثبتت أن الفكرة قابلة للتطبيق.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="vision.title">رؤيتنا وأهدافنا</h2>
+        <p data-i18n="vision.lead">مصدر موثوق يرافق الطالب الطبي في مسيرته</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-6 content" data-aos="fade-up">
+            <h3 data-i18n="vision.h">منظومة تدريب وتعلّم مستمرة وليست دورات متفرقة</h3>
+            <p data-i18n="vision.p">نطمح أن يكون كيورا مصدرًا موثوقًا يعزّز المهارات العملية ويربط الطالب بمحتوى وفرص تساعده على النمو الأكاديمي والمهني. هدفنا بناء منظومة مستدامة لطلبة كليات الطب والتمريض والتخصصات الصحية المرتبطة بها.</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="/site/assets/img/misbar/photo-supplies.jpeg" class="img-fluid rounded" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plan" class="call-to-action section plan-section">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-xl-10 text-center">
+            <h3 data-i18n="plan.title">خطتنا المستقبلية</h3>
+            <p data-i18n="plan.lead">توسيع الدورات، تطوير المنصة، وبناء شراكات مستدامة</p>
+            <p data-i18n="plan.p">نعمل على إعداد دراسة جدوى تفصيلية نعرضها على الشركاء والجهات الداعمة، لتوسيع نطاق الدورات من حيث العدد والتخصصات، وتطوير المنصة المعرفية. نطمح لشراكات تمكّننا من برامج أكثر تنظيمًا وأثرًا على المدى الطويل.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="partners" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="partners.title">نبحث عن شركاء</h2>
+        <p data-i18n="partners.lead">دعم مالي، دعم عيني، أو احتضان مؤسسي</p>
+      </div>
+      <div class="container">
+        <p class="mb-4" data-aos="fade-up" data-i18n="partners.p">نتطلع لبحث التعاون بالشكل الذي يتناسب مع طبيعة عملكم وسياساتكم. يسعدنا ترتيب مكالمة أو اجتماع قصير لعرض التفاصيل ومناقشة الصيغة الأنسب، أو أي شكل تعاون ترونه ملائمًا.</p>
+        <div class="row gy-4 partner-options">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <i class="fas fa-hand-holding-dollar mb-3" style="color: var(--accent-color); font-size: 28px;"></i>
+              <h4 data-i18n="partners.m1.title">دعم مالي</h4>
+              <p data-i18n="partners.m1.text">يساعدنا على توسيع الدورات التدريبية وتغطية تكاليفها.</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <i class="fas fa-toolbox mb-3" style="color: var(--accent-color); font-size: 28px;"></i>
+              <h4 data-i18n="partners.m2.title">دعم عيني</h4>
+              <p data-i18n="partners.m2.text">أدوات تدريب، مواد تعليمية، ومساحات للتدريب العملي.</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="fas fa-building mb-3" style="color: var(--accent-color); font-size: 28px;"></i>
+              <h4 data-i18n="partners.m3.title">احتضان مؤسسي</h4>
+              <p data-i18n="partners.m3.text">إطار يدعم استمرارية الفريق ونموّه على المدى الطويل.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Hidden: institutional license notice
+        <div class="notice-box mt-5" data-aos="fade-up">
+          <h4 data-i18n="license.title">بخصوص الترخيص المؤسسي</h4>
+          <p class="mb-0" data-i18n="license.p">نود أن نكون واضحين وشفافين: كيورا الطبي حاليًا فريق طلابي تطوعي، وليس مسجلاً كجمعية أو مؤسسة قانونية مستقلة، وبالتالي لا نملك في الوقت الراهن ترخيصًا مؤسسيًا رسميًا. نحن على دراية بأهمية هذا الجانب، ونعمل ضمن خطتنا التطويرية على استكمال الإجراءات الرسمية اللازمة لتأسيس الفريق بشكل قانوني في المرحلة المقبلة، بما يتناسب مع نمو عملنا وحجم الشراكات التي نسعى لبنائها.</p>
+        </div>
+        -->
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="gallery.title">ألبوماتنا</h2>
+        <p data-i18n="gallery.lead">لحظات من دوراتنا التدريبية العملية على الأرض</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="album-filters" role="tablist" aria-label="Albums">
+          <button type="button" class="album-filter active" data-album="all" data-i18n="gallery.filter.all">الكل</button>
+          <button type="button" class="album-filter" data-album="nursing" data-i18n="gallery.filter.nursing">مهارات التمريض</button>
+          <button type="button" class="album-filter" data-album="suturing" data-i18n="gallery.filter.suturing">ورشة الخياطة الأساسية</button>
+          <button type="button" class="album-filter" data-album="ventilation" data-i18n="gallery.filter.ventilation">التنفس الصناعي</button>
+          <button type="button" class="album-filter" data-album="taghriz" data-i18n="gallery.filter.taghriz">إكمال دورة التغريز</button>
+          <button type="button" class="album-filter" data-album="firstaid" data-i18n="gallery.filter.firstaid">الإسعافات الأولية</button>
+        </div>
+
+        <div class="album-meta mb-4">
+          <div class="album-card" data-show-for="nursing">
+            <h3 data-i18n="gallery.album.nursing.title">مهارات التمريض الأساسية</h3>
+            <p data-i18n="gallery.album.nursing.lead">وريد، قسطرة وريدية، وسحب دم — تدريب عملي مباشر</p>
+          </div>
+          <div class="album-card" data-show-for="suturing">
+            <h3 data-i18n="gallery.album.suturing.title">ورشة مهارات الخياطة الأساسية</h3>
+            <p data-i18n="gallery.album.suturing.lead">Basic Suturing Skills Workshop — تدريب عملي على إغلاق الجروح مع الدكتور أسامة مصلح</p>
+          </div>
+          <div class="album-card" data-show-for="ventilation">
+            <h3 data-i18n="gallery.album.ventilation.title">التنفس الصناعي</h3>
+            <p data-i18n="gallery.album.ventilation.lead">Mechanical Ventilation — محاضرة وتطبيق عملي على مفاهيم التهوية الميكانيكية</p>
+          </div>
+          <div class="album-card" data-show-for="taghriz">
+            <h3 data-i18n="gallery.album.taghriz.title">إكمال دورة التغريز</h3>
+            <p data-i18n="gallery.album.taghriz.lead">جلسة إكمال وتدريب عملي على مهارات التغريز</p>
+          </div>
+          <div class="album-card" data-show-for="firstaid">
+            <h3 data-i18n="gallery.album.firstaid.title">دورة الإسعافات الأولية</h3>
+            <p data-i18n="gallery.album.firstaid.lead">تدريب عملي على أساسيات الإسعافات الأولية</p>
+          </div>
+        </div>
+
+        <div class="row gy-4 gallery-grid">
+          <!-- Nursing album — photos without clear Misbar branding -->
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="nursing"><a href="/site/assets/img/misbar/photo-bp.jpeg" class="glightbox gallery-item" data-gallery="misbar-nursing"><img src="/site/assets/img/misbar/photo-bp.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="nursing"><a href="/site/assets/img/misbar/photo-bp-group.jpeg" class="glightbox gallery-item" data-gallery="misbar-nursing"><img src="/site/assets/img/misbar/photo-bp-group.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="nursing"><a href="/site/assets/img/misbar/photo-supplies.jpeg" class="glightbox gallery-item" data-gallery="misbar-nursing"><img src="/site/assets/img/misbar/photo-supplies.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="nursing"><a href="/site/assets/img/misbar/photo-23.jpeg" class="glightbox gallery-item" data-gallery="misbar-nursing"><img src="/site/assets/img/misbar/photo-23.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="nursing"><a href="/site/assets/img/misbar/photo-28.jpeg" class="glightbox gallery-item" data-gallery="misbar-nursing"><img src="/site/assets/img/misbar/photo-28.jpeg" alt=""></a></div>
+
+          <!-- Suturing course album — photos without clear Misbar on vests -->
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/1.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/1.jpg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/2.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/2.jpg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/4.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/4.jpg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/5.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/5.jpg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/6.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/6.jpg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/7.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/7.jpg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/9.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/9.jpg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="suturing"><a href="/site/assets/img/misbar/albums/suturing/11.jpg" class="glightbox gallery-item" data-gallery="misbar-suturing"><img src="/site/assets/img/misbar/albums/suturing/11.jpg" alt=""></a></div>
+
+          <!-- Mechanical ventilation album -->
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="ventilation"><a href="/site/assets/img/misbar/albums/ventilation/vent-01.jpeg" class="glightbox gallery-item" data-gallery="cura-ventilation"><img src="/site/assets/img/misbar/albums/ventilation/vent-01.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="ventilation"><a href="/site/assets/img/misbar/albums/ventilation/vent-02.jpeg" class="glightbox gallery-item" data-gallery="cura-ventilation"><img src="/site/assets/img/misbar/albums/ventilation/vent-02.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="ventilation"><a href="/site/assets/img/misbar/albums/ventilation/vent-03.jpeg" class="glightbox gallery-item" data-gallery="cura-ventilation"><img src="/site/assets/img/misbar/albums/ventilation/vent-03.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="ventilation"><a href="/site/assets/img/misbar/albums/ventilation/vent-04.jpeg" class="glightbox gallery-item" data-gallery="cura-ventilation"><img src="/site/assets/img/misbar/albums/ventilation/vent-04.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="ventilation"><a href="/site/assets/img/misbar/albums/ventilation/vent-05.jpeg" class="glightbox gallery-item" data-gallery="cura-ventilation"><img src="/site/assets/img/misbar/albums/ventilation/vent-05.jpeg" alt=""></a></div>
+
+          <!-- Taghriz completion album -->
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-01.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-01.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-02.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-02.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-03.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-03.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-04.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-04.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-05.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-05.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-06.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-06.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-07.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-07.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-08.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-08.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-09.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-09.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-10.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-10.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-11.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-11.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-12.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-12.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-13.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-13.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="taghriz"><a href="/site/assets/img/misbar/albums/taghriz/taghriz-14.jpeg" class="glightbox gallery-item" data-gallery="cura-taghriz"><img src="/site/assets/img/misbar/albums/taghriz/taghriz-14.jpeg" alt=""></a></div>
+
+          <!-- First aid album -->
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-01.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-01.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-02.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-02.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-03.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-03.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-04.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-04.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-05.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-05.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-06.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-06.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-07.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-07.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-08.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-08.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-09.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-09.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-10.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-10.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-11.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-11.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-12.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-12.jpeg" alt=""></a></div>
+          <div class="col-lg-3 col-md-4 col-6 album-item" data-album="firstaid"><a href="/site/assets/img/misbar/albums/firstaid/firstaid-13.jpeg" class="glightbox gallery-item" data-gallery="cura-firstaid"><img src="/site/assets/img/misbar/albums/firstaid/firstaid-13.jpeg" alt=""></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 data-i18n="contact.title">تواصل معنا</h2>
+        <p data-i18n="contact.lead">شاكرين اهتمامكم، ونتطلع للتواصل قريبًا</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3 data-i18n="contact.address">غزة — خدمة طلبة الكليات الطبية والصحية</h3>
+                <p class="contact-person"><strong data-i18n="contact.person">مؤسس من قبل فريق تطوعي من الأطباء والمدربين</strong></p>
+              </div>
+            </div>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Phone</h3>
+                <p><a href="tel:+970567744746">+970 567 744 746</a></p>
+              </div>
+            </div>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:info@cura-ps.org">info@cura-ps.org</a></p>
+              </div>
+            </div>
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-instagram flex-shrink-0"></i>
+              <div>
+                <h3>Instagram / Telegram</h3>
+                <p>
+                  <a href="https://instagram.com/cura_team" target="_blank" rel="noopener">@cura_team</a>
+                  ·
+                  <a href="https://t.me/cura_team" target="_blank" rel="noopener">Telegram</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form id="misbar-contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" required data-i18n-placeholder="contact.form.name" placeholder="الاسم">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control" required data-i18n-placeholder="contact.form.email" placeholder="البريد الإلكتروني">
+                </div>
+                <div class="col-md-12">
+                  <input type="text" name="subject" class="form-control" required data-i18n-placeholder="contact.form.subject" placeholder="الموضوع">
+                </div>
+                <div class="col-md-12">
+                  <textarea name="message" class="form-control" rows="6" required data-i18n-placeholder="contact.form.message" placeholder="الرسالة"></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <button type="submit" data-i18n="contact.form.send">إرسال رسالة</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-6 footer-about">
+          <a href="/" class="logo d-flex align-items-center">
+            <img src="/site/assets/img/misbar/logo-transparent.png" alt="CURA Medical Team" class="site-logo">
+          </a>
+          <div class="footer-contact pt-3">
+            <p data-i18n="footer.about">فريق طلابي تطوعي يخدم التعليم الطبي العملي في غزة.</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+970 567 744 746</span></p>
+            <p><strong>Email:</strong> <span>info@cura-ps.org</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://instagram.com/cura_team" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://t.me/cura_team" target="_blank" rel="noopener" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+            <a href="mailto:info@cura-ps.org" aria-label="Email"><i class="bi bi-envelope"></i></a>
+            <a href="tel:+970567744746" aria-label="Phone"><i class="bi bi-telephone"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h4 data-i18n="footer.links">روابط سريعة</h4>
+          <ul>
+            <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+            <li><a href="#services" data-i18n="nav.offer">ماذا نقدم</a></li>
+            <li><a href="#partners" data-i18n="nav.cta">تعاون معنا</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>LEARN • RESEARCH • GROW</h4>
+          <p data-i18n="footer.designed">كيورا الطبي | LEARN • RESEARCH • GROW</p>
+          <div class="palestine-badge mt-3">
+            <span class="palestine-flag palestine-flag--lg" aria-hidden="true">
+              <svg viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                <rect width="24" height="5.333" y="0" fill="#000"/>
+                <rect width="24" height="5.333" y="5.333" fill="#fff"/>
+                <rect width="24" height="5.334" y="10.666" fill="#007A3D"/>
+                <polygon points="0,0 12,8 0,16" fill="#CE1126"/>
+              </svg>
+            </span>
+            <span data-i18n="footer.palestine">من فلسطين — لغزة وللتعليم الطبي</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="palestine-stripe" aria-hidden="true"></div>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">CURA Medical Team</strong> <span data-i18n="footer.copy">جميع الحقوق محفوظة</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="/site/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/site/assets/vendor/aos/aos.js"></script>
+  <script src="/site/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/site/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/site/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/site/assets/js/lang.js"></script>
+  <script src="/site/assets/js/main.js"></script>
+
+</body>
+</html>

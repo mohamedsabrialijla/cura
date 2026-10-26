@@ -1,0 +1,4 @@
+file 'f:\cura\public\site\assets\video\_edit\part-v1.mp4'
+file 'f:\cura\public\site\assets\video\_edit\part-v2.mp4'
+file 'f:\cura\public\site\assets\video\_edit\part-v3.mp4'
+file 'f:\cura\public\site\assets\video\_edit\part-v4.mp4'

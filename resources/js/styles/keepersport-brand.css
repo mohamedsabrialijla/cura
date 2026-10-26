@@ -1,0 +1,5 @@
+:root {
+    --ks-brand: #f5c400;
+    --ks-brand-dark: #c9a000;
+    --ks-brand-gradient: linear-gradient(135deg, #f5c400 0%, #e6b800 100%);
+}

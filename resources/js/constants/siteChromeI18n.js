@@ -1,0 +1,213 @@
+export const HEADER_I18N = {
+    en: {
+        ticker_prefix: "KEEPERsport Saudi Arabia | Goalkeeper specialists",
+        ticker_cta: "",
+        ticker_internal: "",
+        account: "Account",
+        search: "Search",
+        cart: "Cart",
+        menu: "Menu",
+        navigation: "Navigation",
+        show_all: "Show all",
+        nav: [
+            { label: "Goalkeeper Gloves", internal: "/goalkeeper-gloves" },
+            { label: "Football Boots", internal: "/football-boots" },
+            { label: "Goalkeeper apparel", internal: "/goalkeeper-apparel" },
+            { label: "Goalkeeper equipment", internal: "/goalkeeper-equipment" },
+            { label: "Teamsport", internal: "/teamsport" },
+            { label: "Sale", internal: "/sale" },
+        ],
+    },
+    ar: {
+        ticker_prefix: "KEEPERsport السعودية | متخصصون في حراس المرمى",
+        ticker_cta: "",
+        ticker_internal: "",
+        account: "الحساب",
+        search: "بحث",
+        cart: "السلة",
+        menu: "القائمة",
+        navigation: "التنقل",
+        show_all: "عرض الكل",
+        nav: [
+            { label: "قفازات حارس المرمى", internal: "/goalkeeper-gloves" },
+            { label: "أحذية كرة القدم", internal: "/football-boots" },
+            { label: "ملابس حارس المرمى", internal: "/goalkeeper-apparel" },
+            { label: "معدات حارس المرمى", internal: "/goalkeeper-equipment" },
+            { label: "ملابس الفريق", internal: "/teamsport" },
+            { label: "تخفيضات", internal: "/sale" },
+        ],
+    },
+};
+
+export const FOOTER_I18N = {
+    en: {
+        sections: [
+            {
+                title: "Contact",
+                items: [
+                    { text: "Contact us", internal: "/contact-us" },
+                    { text: "Live chat", href: "#" },
+                ],
+            },
+            {
+                title: "Opening Hours",
+                items: [
+                    { text: "KEEPERsport Saudi Arabia", strong: true },
+                    { text: "Saturday - Thursday: 9:00 AM - 5:00 PM" },
+                ],
+            },
+            {
+                title: "Service & Support",
+                items: [
+                    { text: "FAQ", internal: "/faq" },
+                    { text: "Payment", internal: "/page/payment" },
+                    { text: "Shipping", internal: "/page/shipping" },
+                    { text: "Delivery times", internal: "/page/delivery" },
+                    { text: "Returns | Withdrawal", internal: "/page/returns" },
+                    { text: "Glove care", internal: "/glove-care" },
+                    { text: "Newsletter", internal: "/contact-us" },
+                ],
+            },
+            {
+                title: "KEEPERsport",
+                items: [
+                    { text: "About us", internal: "/about-us" },
+                    { text: "Goalkeeper Day", internal: "/about-us?tab=day" },
+                    { text: "Contact", internal: "/contact-us" },
+                    { text: "Terms & Conditions", internal: "/terms" },
+                    { text: "Usage & Return Policy", internal: "/usage-return" },
+                    { text: "Privacy Policy", internal: "/privacy" },
+                ],
+            },
+            {
+                title: "Categories",
+                items: [
+                    { text: "Goalkeeper gloves", internal: "/goalkeeper-gloves" },
+                    { text: "Football boots", internal: "/football-boots" },
+                    { text: "Goalkeeper apparel", internal: "/goalkeeper-apparel" },
+                    { text: "Goalkeeper equipment", internal: "/goalkeeper-equipment" },
+                    { text: "Teamsport", internal: "/teamsport" },
+                    { text: "Sale", internal: "/sale" },
+                ],
+            },
+            {
+                title: "Brands",
+                items: [
+                    { text: "adidas", internal: "/shop/adidas-goalkeeper-gloves" },
+                    { text: "KEEPERsport", internal: "/shop/keepersport-goalkeeper-gloves" },
+                    { text: "NIKE", internal: "/shop/nike-goalkeeper-gloves" },
+                    { text: "Puma", internal: "/shop/puma-goalkeeper-gloves" },
+                    { text: "REUSCH", internal: "/shop/reusch-goalkeeper-gloves" },
+                    { text: "uhlsport", internal: "/shop/uhlsport-goalkeeper-gloves" },
+                    { text: "Elite Sport", internal: "/shop/elite-sport-goalkeeper-gloves" },
+                    { text: "erima", internal: "/shop/erima-goalkeeper-gloves" },
+                    { text: "rehab", internal: "/shop/rehab-goalkeeper-gloves" },
+                ],
+            },
+            {
+                title: "Highlights",
+                items: [
+                    { text: "adidas goalkeeper gloves", internal: "/shop/adidas-goalkeeper-gloves" },
+                    { text: "KEEPERsport goalkeeper gloves", internal: "/shop/keepersport-goalkeeper-gloves" },
+                    { text: "reusch goalkeeper gloves", internal: "/shop/reusch-goalkeeper-gloves" },
+                    { text: "uhlsport goalkeeper gloves", internal: "/shop/uhlsport-goalkeeper-gloves" },
+                    { text: "erima goalkeeper gloves", internal: "/shop/erima-goalkeeper-gloves" },
+                    { text: "NIKE goalkeeper gloves", internal: "/shop/nike-goalkeeper-gloves" },
+                    { text: "PUMA goalkeeper gloves", internal: "/shop/puma-goalkeeper-gloves" },
+                ],
+            },
+        ],
+        copyright: "© 2026 KEEPERsport Saudi Arabia. #KeepItAll.",
+        terms: "Terms & Conditions",
+        usage_return: "Usage & Return Policy",
+        impressum: "Legal notice",
+        privacy: "Privacy Policy",
+        cookie: "Cookies",
+        country: "Saudi Arabia",
+    },
+    ar: {
+        sections: [
+            {
+                title: "التواصل",
+                items: [
+                    { text: "اتصل بنا", internal: "/contact-us" },
+                    { text: "الدردشة المباشرة", href: "#" },
+                ],
+            },
+            {
+                title: "أوقات العمل",
+                items: [
+                    { text: "KEEPERsport السعودية", strong: true },
+                    { text: "السبت - الخميس: 9 صباحًا - 5 مساءً" },
+                ],
+            },
+            {
+                title: "الخدمة والدعم",
+                items: [
+                    { text: "الأسئلة الشائعة", internal: "/faq" },
+                    { text: "الدفع", internal: "/page/payment" },
+                    { text: "الشحن", internal: "/page/shipping" },
+                    { text: "مدة التوصيل", internal: "/page/delivery" },
+                    { text: "الإرجاع", internal: "/page/returns" },
+                    { text: "العناية بالقفازات", internal: "/glove-care" },
+                    { text: "النشرة البريدية", internal: "/contact-us" },
+                ],
+            },
+            {
+                title: "KEEPERsport",
+                items: [
+                    { text: "من نحن", internal: "/about-us" },
+                    { text: "يوم حارس المرمى", internal: "/about-us?tab=day" },
+                    { text: "تواصل", internal: "/contact-us" },
+                    { text: "الشروط والأحكام", internal: "/terms" },
+                    { text: "سياسة الاستخدام والاسترجاع", internal: "/usage-return" },
+                    { text: "سياسة الخصوصية", internal: "/privacy" },
+                ],
+            },
+            {
+                title: "الفئات",
+                items: [
+                    { text: "قفازات حارس المرمى", internal: "/goalkeeper-gloves" },
+                    { text: "أحذية كرة القدم", internal: "/football-boots" },
+                    { text: "ملابس حارس المرمى", internal: "/goalkeeper-apparel" },
+                    { text: "معدات حارس المرمى", internal: "/goalkeeper-equipment" },
+                    { text: "ملابس الفريق", internal: "/teamsport" },
+                    { text: "تخفيضات", internal: "/sale" },
+                ],
+            },
+            {
+                title: "العلامات التجارية",
+                items: [
+                    { text: "adidas", internal: "/shop/adidas-goalkeeper-gloves" },
+                    { text: "KEEPERsport", internal: "/shop/keepersport-goalkeeper-gloves" },
+                    { text: "NIKE", internal: "/shop/nike-goalkeeper-gloves" },
+                    { text: "Puma", internal: "/shop/puma-goalkeeper-gloves" },
+                    { text: "REUSCH", internal: "/shop/reusch-goalkeeper-gloves" },
+                    { text: "uhlsport", internal: "/shop/uhlsport-goalkeeper-gloves" },
+                    { text: "Elite Sport", internal: "/shop/elite-sport-goalkeeper-gloves" },
+                    { text: "erima", internal: "/shop/erima-goalkeeper-gloves" },
+                    { text: "rehab", internal: "/shop/rehab-goalkeeper-gloves" },
+                ],
+            },
+            {
+                title: "الأبرز",
+                items: [
+                    { text: "قفازات adidas", internal: "/shop/adidas-goalkeeper-gloves" },
+                    { text: "قفازات KEEPERsport", internal: "/shop/keepersport-goalkeeper-gloves" },
+                    { text: "قفازات reusch", internal: "/shop/reusch-goalkeeper-gloves" },
+                    { text: "قفازات uhlsport", internal: "/shop/uhlsport-goalkeeper-gloves" },
+                    { text: "قفازات erima", internal: "/shop/erima-goalkeeper-gloves" },
+                    { text: "قفازات NIKE", internal: "/shop/nike-goalkeeper-gloves" },
+                    { text: "قفازات PUMA", internal: "/shop/puma-goalkeeper-gloves" },
+                ],
+            },
+        ],
+        copyright: "© 2026 KEEPERsport السعودية. #KeepItAll.",
+        terms: "الشروط والأحكام",
+        usage_return: "سياسة الاستخدام والاسترجاع",
+        impressum: "بيانات قانونية",
+        privacy: "سياسة الخصوصية",
+        cookie: "الكوكيز",
+        country: "المملكة العربية السعودية",
+    },
+};
